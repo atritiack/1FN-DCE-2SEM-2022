@@ -1,0 +1,12 @@
+# Writing all output to: C:\Users\atrit\OneDrive\Documentos\ETEC\2sem2022\Desenvolvimento de Circuitos Eletr??nicos\1FN-DCE-2SEM-2022\Aula 11\Projeto Proteus\AULA11.log
+set pad_wire_necking on
+bus diagonal
+fanout 5
+route 50
+clean 2
+route 50 16
+clean 2
+filter 5
+recorner diagonal
+status_file
+
